@@ -17,7 +17,7 @@ namespace APIContagem.Controllers
         {
             lock (_CONTADOR)
             {
-                _CONTADOR.Incrementar();
+                _CONTADOR.Incrementar(); //teste
 
                 return new
                 {
